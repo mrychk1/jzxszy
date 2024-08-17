@@ -1,0 +1,28 @@
+{
+  "name": "textui1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@cgcs2000/mapbox-gl": "^2.3.0",
+    "@element-plus/icons-vue": "^2.3.1",
+    "@mapbox/mapbox-gl-draw": "^1.4.3",
+    "@turf/turf": "^7.1.0",
+    "mapbox-gl": "^3.5.2",
+    "proj4": "^2.12.0",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@types/mapbox__mapbox-gl-draw": "^1.4.7",
+    "@types/proj4": "^2.5.5",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
